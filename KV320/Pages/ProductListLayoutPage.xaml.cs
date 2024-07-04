@@ -23,13 +23,13 @@ namespace KV320.Pages
         public ProductListLayoutPage()
         {
             InitializeComponent();
-            List<int> list = new List<int>();
+            List<int> showlist = new List<int>();
             for(int i = 0; i < 10; i++)
             {
-                list.Add(i);
+                showlist.Add(i);
             }
 
-            productLV.ItemsSource = list;
+            productLV.ItemsSource = showlist;
         }
     }
 }
