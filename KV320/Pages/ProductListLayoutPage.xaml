@@ -81,10 +81,10 @@
         </ListView>
 
         <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="2" Width="100" Height="30" VerticalAlignment="Bottom" Margin="30">
-            <Button Content="1" Width="25"/>
-            <Button Content="2" Width="25"/>
-            <Button Content="3" Width="25"/>
-            <Button Content="4" Width="25"/>
+            <Button Background="White" BorderBrush="White" Content="1" Width="25"/>
+            <Button Background="White" BorderBrush="White" Content="2" Width="25"/>
+            <Button Background="White" BorderBrush="White" Content="3" Width="25"/>
+            <Button Background="White" BorderBrush="White" Content="4" Width="25"/>
         </StackPanel>
         
     </Grid>
